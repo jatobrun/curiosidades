@@ -1,8 +1,8 @@
-# Que es conda?
-Conda es un administrador de paquetes y entornos virtuales para distintos lenguajes de programacion.
+# ¿Qué es Conda?
+Conda es un administrador de paquetes y entornos virtuales para distintos lenguajes de programación.
 
-## Comandos basicos
-Para crear un entorno de desarrollo vacio.
+## Comandos básicos
+Para crear un entorno de desarrollo vacío.
 ```bash
 % conda create -n conda-env 
 ```
@@ -17,7 +17,7 @@ Creamos un entorno adaptado a python, es decir, por default se instalan cosas co
 ```bash
 % conda create -n conda-env numpy=4.2 request=2.1 python=3.8
 ```
-⚠️ **Nota:** Podemos crear el entorno y ademas instalar las dependencias que necesitamos. Tambien podemos escoger sus versiones.
+⚠️ **Nota:** Podemos crear el entorno y además, instalar las dependencias que necesitamos. También podemos escoger sus versiones.
 
 Para activar nuestro entorno creado.
 ```bash
